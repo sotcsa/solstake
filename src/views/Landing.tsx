@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
 import '../App.css';
-import {
-  Link
-} from 'react-router-dom';
+import { React, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Box, Button, Typography, IconButton, Grid, Dialog, DialogTitle, DialogActions, DialogContent, makeStyles, Theme, createStyles, Snackbar, SvgIcon } from '@material-ui/core';
 import { ReactComponent as SolstakeLogoMainSvg } from '../assets/logo-white.svg';
 import { GitHub, Twitter, YouTube } from '@material-ui/icons';
@@ -105,30 +103,30 @@ export function Landing() {
   
               <div>
                 <IconButton
-                  href="https://github.com/rooware-io/solstake"
+                  href="https://github.com/sotcsa/solstake"
                   rel="noopener noreferrer" target="_blank"
                 >
                   <GitHub style={styles.smallIcon} />
                 </IconButton>
-                <IconButton
+                {/* <IconButton
                   onClick={() => setOpenVideo(true)}
                 >
                   <YouTube style={styles.largeIcon} />
-                </IconButton>
-                <IconButton
+                </IconButton> */}
+                {/* <IconButton
                   href="https://discord.gg/r5fZHdfu"
                   rel="noopener noreferrer" target="_blank"
                 >
                   <SvgIcon style={styles.smallIcon}>
                     <Discord />
                   </SvgIcon>
-                </IconButton>
-                <IconButton
+                </IconButton> */}
+                {/* <IconButton
                   href="https://twitter.com/solstakeio"
                   rel="noopener noreferrer" target="_blank"
                 >
                   <Twitter style={styles.mediumIcon} />
-                </IconButton>
+                </IconButton> */}
               </div>
             </Grid>
           </Grid>

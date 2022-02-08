@@ -238,9 +238,7 @@ function DApp() {
       {/* Header */}
       <div className="h-20 flex flex-wrap justify-between px-10 py-4">
         <div className="h-full w-1/2 md:w-1/3 xl:w-1/6 pt-2">
-          <RouterLink to="/">
-            <SolstakeLogoSvg />
-          </RouterLink>
+          <SolstakeLogoSvg />
         </div>
         
         <div>    

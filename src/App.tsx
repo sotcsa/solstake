@@ -6,7 +6,7 @@ import {
   Route
 } from 'react-router-dom';
 import DApp from './views/DApp';
-import { Landing } from './views/Landing';
+// import { Landing } from './views/Landing';
 import { ConnectionProvider } from './contexts/connection';
 import { WalletProvider } from './contexts/wallet';
 import { ThemeProvider } from '@material-ui/core';
@@ -26,8 +26,8 @@ function App() {
               <SnackbarProvider maxSnack={5} autoHideDuration={10000}>
                 <ThemeProvider theme={theme}>
                   <Router>
-                    <Route exact path='/' component={Landing} />
-                    <Route path={['/app/validator/:validator', '/app']} component={DApp} />
+                    <Route exact path='/' component={DApp} />
+                    {/* <Route path={['/app/validator/:validator', '/app']} component={DApp} /> */}
                   </Router>
                 </ThemeProvider>
               </SnackbarProvider>

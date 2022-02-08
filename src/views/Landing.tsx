@@ -1,10 +1,11 @@
 import '../App.css';
-import { React, useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Box, Button, Typography, IconButton, Grid, Dialog, DialogTitle, DialogActions, DialogContent, makeStyles, Theme, createStyles, Snackbar, SvgIcon } from '@material-ui/core';
 import { ReactComponent as SolstakeLogoMainSvg } from '../assets/logo-white.svg';
-import { GitHub, Twitter, YouTube } from '@material-ui/icons';
-import { ReactComponent as Discord } from '../assets/discord-brands.svg';
+import { GitHub } from '@material-ui/icons';
+// import { GitHub, Twitter, YouTube } from '@material-ui/icons';
+// import { ReactComponent as Discord } from '../assets/discord-brands.svg';
 import { Alert } from '@material-ui/lab';
 import { Color } from '@material-ui/lab/Alert';
 
